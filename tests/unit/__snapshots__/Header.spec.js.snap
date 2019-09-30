@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<div
+  class="header-template"
+>
+  <b-nav
+    class="starter-nav"
+    fill=""
+    tabs=""
+  >
+    <b-nav-item
+      class="laika-title"
+      data-test="laika_title"
+      disabled=""
+    >
+      <b>
+        Laika: A Space Adventure
+      </b>
+    </b-nav-item>
+     
+    <b-nav-item
+      disabled=""
+    >
+      <b-progress
+        animated=""
+        data_test="progress_bar"
+        max="10"
+        show-progress=""
+      />
+    </b-nav-item>
+  </b-nav>
+</div>
+`;
